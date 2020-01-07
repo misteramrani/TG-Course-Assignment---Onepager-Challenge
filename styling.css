@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.tg_header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.tg_header-logo {
+    width: 100px;
+    filter: grayscale(100%);
+}
+
+.tg_header-menubalk {
+    list-style: none;
+}
+
+.tg_header-menubalk-listitems {
+    margin-left: .5rem;
+    font-size: 0.5rem;
+    display: inline-block;
+}
+
+.tg_main_intro {
+    width: 100%;
+    text-align: center;
+}
+
+.tg_main_intro_title, .tg_main_intro_text, .tg_main_intro_buttonwrapper {
+    width: 50vw;
+    margin: auto;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.tg_main_intro_buttonwrapper {
+    width: unset;
+}
+
+.tg_main_intro_buttonwrapper-button {
+    background: rgb(0, 0, 0);
+    border: 0;
+    padding: .3rem;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+    margin: .5rem;
+    color: white;
+}
+
+iframe {
+    margin-bottom: 3rem;
+    filter: grayscale(100%);
+}
+
+.tg_main_werkgevers {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.tg_main_werkgevers-title, .tg_main_werkgevers-introtext, .tg_main_werkgevers-text {
+    width: 50vw;
+    margin: auto;
+    padding: 0.5rem;
+    color: lightgray;
+}
+
+.tg_main_werkgevers-introtext {
+    color: grey;
+}
+
+.tg_main_werkgevers-button-wrapper {
+    text-align: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.tg_main_werkgevers-button {
+    background: rgb(255, 255, 255);
+    border: 0;
+    padding: .3rem;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+}
+
+.tg_main_team {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(204, 204, 204);
+}
+
+.tg_main_team_title {
+    margin: 0;
+    padding: 2rem;
+}
+
+.tg_main_team_subtitle {
+    width: 60%;
+    margin: auto;
+    color: rgb(255, 255, 255);
+}
+
+.tg_main_team_teamleden {
+    display: flex;
+    font-size: 0.7rem;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.tg_main_team_teamlid {
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.tg_main_team_teamlid-photo-image {
+    width: 50%;
+    border-radius: 50%;
+    filter: grayscale(100%);
+}
+
+.tg_main_team_teamlid-about-profession, i {
+    font-size: smaller;
+    color: lightgrey;
+    font-weight: bolder;
+    margin: .3rem;
+}
+
+.tg_footer {
+    background-color: black;
+    color: grey;
+}
+
+.tg_footer_sitemap {
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.tg_footer_sitemap_column-1 {
+    width: 20%;
+    color: grey;
+    font-size: .5rem;
+}
+
+.tg_footer_sitemap_column-2 {
+    width: 30%;
+    color: grey;
+    font-size: .5rem;
+}
+
+.tg_footer_sitemap_links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tg_footer_socials, .tg_footer_rights {
+    font-size: smaller;
+    color: lightgrey;
+    text-align: center;
+}
+
+.tg_footer_rights {
+    font-size: .5rem;
+    padding: 1rem;
+    ;
+}
