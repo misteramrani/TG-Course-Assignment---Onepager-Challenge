@@ -15,8 +15,9 @@
 <body>
     <!-- HEADER -->
     <header class="tg_header">
-        <img class="tg_header-logo" src="/images/logo.svg" alt="">
-        <ul class="tg_header-menubalk">
+        <div class="tg_header_logo_fafa-wrapper"><img class="tg_header-logo" src="images/logo.svg" alt="">
+            <i class="lni-menu" id="fafabar"></i></div>
+        <ul class="tg_header-menubalk" id="menubar">
             <li class="tg_header-menubalk-listitems">OVER ONS</li>
             <li class="tg_header-menubalk-listitems">OPLEIDINGEN</li class="tg_header-menubalk-listitems">
             <li class="tg_header-menubalk-listitems">STARTINGGROUNDS</li class="tg_header-menubalk-listitems">
@@ -151,6 +152,21 @@
         </div>
         <div class="tg_footer_rights">© 2020 AMRANI - All Rights Reserved.</div>
     </footer>
+    <script>
+        document.getElementById('fafabar').addEventListener("click", displayMenubar)
+
+
+
+        function displayMenubar() {
+            let display = document.getElementById('menubar').style.display;
+            console.log(document.getElementById('menubar').style.display);
+            if (display == '') {
+                document.getElementById('menubar').style.display = "unset";
+            } else {
+                document.getElementById('menubar').style.display = "";
+            }
+        }
+    </script>
 </body>
 
 </html>
